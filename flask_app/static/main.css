@@ -1,0 +1,86 @@
+form, input, div {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'PT Serif Caption', serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* css for nav */
+
+nav {
+    height: 90px;
+    background-color: #16a085;
+}
+
+nav .nav-logo {
+    float: left;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 36px;
+    color: #fff;
+    padding: 20px 40px;
+}
+
+
+/* css for main */
+main {
+    height: 650px;
+    background-color: #fff
+}
+
+.intro{
+    margin-left:100px;
+    margin-right: 100px;
+}
+
+.intro h1{
+    font-size: 60px;
+}
+
+.intro-heading span{
+    color: #ff4a4a
+}
+
+.intro {
+    border-bottom: 2px solid #dee7ec
+}
+
+
+.upload {
+    position: "relative";
+    padding-top: 20px;
+    width: 400px;
+    margin: 0 auto;
+}
+
+#file {
+    display: None;
+}
+
+.upload label {
+    display: flex;
+    width: 200px;
+    text-align: "center";
+    background-color: #16a085;
+}
+
+
+/* css for footer */
+
+footer .footer-logo {
+    float: left;
+    font-family: 'Montserrat';
+    font-weight: 200;
+    font-size: 15px;
+    color: #fff;
+    line-height: 50px
+}
+
+footer {
+    height: 50px;
+    background-color: #16a085;
+    padding-left: 10px;
+}

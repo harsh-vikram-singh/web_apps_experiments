@@ -1,0 +1,20 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+<div class="intro">
+    <h1 class="intro-heading">Serving deep-learning models<span>.</span></h1>
+    <p class="intro-content">
+        Trained deep learning models from the fastai course, hosted for anyone to run inference.<br>
+        This is aimed as a self-learning exercise, with the expectation of gaining knowledge of using deep-learning
+        models in production.
+    </p>
+</div>
+{% endblock content %}
+
+{% block upload %}
+<div class="upload">
+    <h3>Choose a picture to upload</h3>
+    <input type="file" id="file" accept="image/*">
+    <label for="file">Choose an image</label>
+</div>
+{% endblock upload %}<h2>from the upload block</h2>
