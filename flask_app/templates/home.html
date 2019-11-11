@@ -14,7 +14,19 @@
 {% block upload %}
 <div class="upload">
     <h3>Choose a picture to upload</h3>
-    <input type="file" id="file" accept="image/*">
-    <label for="file" class="btn">Select ></label>
+    <form action="/upload_file" method="POST" enctype="multipart/form-data">
+        <input type="file" id="selected-file" name="file">
+
+        <input type="submit" id="file-submit" name="file" class="btn" value="Submit >">
+
+
+        <!-- use this button for upload -->
+        <!-- <input type="submit" id="file-submit" name="file" accept="image/*">
+        <label for="file-submit" class="btn">upload ></label> -->
+
+        <!-- use the values from this button in the above,
+        and then delete it -->
+        <!-- <input type="submit" value="upload" class="btn"> -->
+    </form>
 </div>
 {% endblock upload %}<h2>from the upload block</h2>

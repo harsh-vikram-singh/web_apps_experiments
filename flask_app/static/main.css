@@ -76,7 +76,11 @@ main {
     text-align: center;
 }
 
-.upload label[for="file"] {
+#selected-file {
+    
+}
+
+/* .upload label[for="file"] {
     margin-top: 15px;
     cursor: pointer;
     padding-top: 8px;
@@ -87,11 +91,19 @@ main {
     width: 100px;
     font-family: 'Ubuntu Mono', monospace;
     margin: 0 auto;
+    font-size: 24px;
+} */
+
+#file-submit {
+    font-family: 'Ubuntu Mono', monospace;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    border: none;
+    font-size: 24px;
 }
 
-.upload label{}
-
-.upload label:active {
+#file-submit:active {
     box-shadow: none;
     position: relative;
     top: 7px
