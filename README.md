@@ -5,5 +5,5 @@ would be served through these apps.
 
 ## Plan
 
-1. Learn to build a Flask app
+1. Learn to build a Flask and Django app
 2. An app using Starlette framework
